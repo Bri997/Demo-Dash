@@ -3,7 +3,7 @@ import { Formik, Field, FieldArray } from 'formik'
 
 import { TextField, Button } from '@material-ui/core'
 
-import pageThreeStyles from '../../assets/jss/PageThreeStyles'
+import pageThreeStyles from '../../assets/jss/material-dashboard-react/PageThreeStyles'
 import SaveIcon from '@material-ui/icons/Save'
 import DeleteIcon from '@material-ui/icons/Delete'
 import { v4 as uuidv4 } from 'uuid'

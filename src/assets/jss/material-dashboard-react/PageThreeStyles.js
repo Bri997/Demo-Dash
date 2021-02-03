@@ -23,6 +23,9 @@ const pageThreeStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(5),
     minWidth: 150,
   },
+  button: {
+    margin: theme.spacing(5),
+  },
 }))
 
 export default pageThreeStyles

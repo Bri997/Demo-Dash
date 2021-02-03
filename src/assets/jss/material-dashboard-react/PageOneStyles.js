@@ -5,6 +5,11 @@ const pageOneStyles = makeStyles((theme) => ({
     display: 'flex',
     flexWrap: 'wrap',
   },
+  inputUpload: {
+    background: '#eee',
+    marginBottom: theme.spacing(3),
+  },
+
   textField: {
     marginLeft: theme.spacing(5),
     marginRight: theme.spacing(5),
@@ -15,6 +20,9 @@ const pageOneStyles = makeStyles((theme) => ({
     marginLeft: theme.spacing(5),
     marginRight: theme.spacing(5),
     width: '65vw',
+  },
+  button: {
+    margin: theme.spacing(5),
   },
 }))
 

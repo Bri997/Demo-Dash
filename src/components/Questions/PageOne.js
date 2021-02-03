@@ -1,5 +1,5 @@
 import React from 'react'
-import { Formik, Form, Field } from 'formik'
+import { Formik, Form, Field, Input } from 'formik'
 import { TextField, Button, Checkbox } from '@material-ui/core'
 import MultiLine from '../Inputs/Multiline'
 import PageOneStyles from '../../assets/jss/material-dashboard-react/PageOneStyles'
@@ -27,6 +27,17 @@ const PageOne = () => {
       >
         {({ values, errors, isSubmitting }) => (
           <Form>
+            <h4>Upload Image of Driver's License</h4>
+            <input
+              id='Drivers License'
+              name='Drivers License'
+              type='file'
+              onChange={(event) => {
+                console.log('file', event.currentTarget.files[0])
+              }}
+              className={classes.inputUpload}
+            />
+            <hr></hr>
             <h4>Legal Name of Business</h4>
             <Field
               placeholder='Business Name'
