@@ -1,5 +1,5 @@
 import React from 'react'
-import { Formik, Form, Field, Input } from 'formik'
+import { Formik, Form, Field } from 'formik'
 import { TextField, Button, Checkbox } from '@material-ui/core'
 import MultiLine from '../Inputs/Multiline'
 import PageOneStyles from '../../assets/jss/material-dashboard-react/PageOneStyles'
